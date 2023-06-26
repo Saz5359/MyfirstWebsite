@@ -1,0 +1,61 @@
+.c-item {
+    height: 32rem;
+    background-position: center;
+    background-size: cover; 
+}
+
+.c-img {
+  filter: brightness(0.7);
+}
+
+.space {
+  height: 20vh;
+}
+
+.nav-box {
+  font-size: 50px;
+  border: 5px;
+}
+
+.genre {
+   margin-left: 300px;
+}
+
+.head2 {
+  text-align: center;
+}
+
+.p2 {
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  font-size: 20px;
+}
+
+.he {
+  text-align: center;
+}
+
+.head1 {
+  font-family: cursive;
+}
+
+li {
+  font-family: cursive;
+}
+
+.bar {
+  font-size: 60px;
+}
+
+a {
+  color: rgb(209, 17, 164);
+}
+
+.radio {
+  text-align: center;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

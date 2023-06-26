@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="list.css" />
+    <title>Completed List</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="saveforlater.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid bar">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://e7.pngegg.com/pngimages/444/589/png-clipart-skull-and-crossbones-hazard-symbol-united-states-toxicity-toxic-text-smiley.png"
+            alt="Logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          <h1>Completed List</h1>
+        </a>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index2.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="SaveforLater.html">Save For Later</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <table class="table">
+      <thead class="table-dark">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">picture</th>
+          <th scope="col">price</th>
+          <th scope="col">Buy it here</th>
+          <th scope="col">Save it</th>
+        </tr>
+      </thead>
+      <tbody class="table-group-divider">
+        <tr>
+          <th scope="row">1</th>
+          <td>Hogwarts Legacy</td>
+          <td>
+            <img
+              src="https://www.cnet.com/a/img/resize/dcd81673f64603d4b039899ac6a5fac3287fd72f/hub/2021/01/04/ea46fed5-ce2c-4491-b12b-63d9921fb09c/hogwarts-legacy.jpg?auto=webp&fit=crop&height=675&width=1200"
+              alt=""
+            />
+          </td>
+          <td>R 1,249.00</td>
+          <td>https://www.playstation.com/en-za/games/hogwarts-legacy/</td>
+          <td><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></td>
+          <td>
+            <a href="#" class="btn btn-primary" onclick="AddItems(1)"
+              >Save For Later</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Assassins Creed Valhalla</td>
+          <td>
+            <img
+              src="https://api.cdkeybay.com/static/33553feccf8435e4bc882a00.jpg"
+              alt=""
+            />
+          </td>
+          <td>R 999.00</td>
+          <td>
+            https://store.steampowered.com/app/2208920/Assassins_Creed_Valhalla/
+          </td>
+          <td><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></td>
+          <td>
+            <a href="#" class="btn btn-primary" onclick="AddItems(2)"
+              >Save For Later</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>DEATH STRANDING DIRECTORS CUT/</td>
+          <td>
+            <img
+              src="https://dafunda.com/wp-content/uploads/2020/04/Death-Stranding-scaled.jpg"
+              alt=""
+            />
+          </td>
+          <td>R 599.00</td>
+          <td>
+            https://store.steampowered.com/app/1850570/DEATH_STRANDING_DIRECTORS_CUT/
+          </td>
+          <td><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></td>
+          <td>
+            <a href="#" class="btn btn-primary" onclick="AddItems(3)"
+              >Save For Later</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Grand Theft Auto V</td>
+          <td>
+            <img
+              src="https://1.bp.blogspot.com/-4QPu2FiuOj8/Uj2A3M0R6jI/AAAAAAAAXCA/V96ZfS_hvaE/s1600/gta-5-logo-wallpaper-hd-kc1ljopt.jpg"
+              alt=""
+            />
+          </td>
+          <td>R 885.44</td>
+          <td>https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/</td>
+          <td><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></td>
+          <td>
+            <a href="#" class="btn btn-primary" onclick="AddItems(4)"
+              >Save For Later</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>PUBG BATTLEGROUNDS</td>
+          <td>
+            <img
+              src="https://mp1st.com/wp-content/uploads/2018/04/PUBG-New-Update-min.jpg"
+              alt=""
+            />
+          </td>
+          <td>Free to play</td>
+          <td>https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/</td>
+          <td><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></td>
+          <td>
+            <a href="#" class="btn btn-primary" onclick="AddItems(5)"
+              >Save For Later</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Star Citizen</td>
+          <td>
+            <img
+              src="https://geek.coolstreaming.us/wp-content/uploads/2020/06/Source.jpg"
+              alt=""
+            />
+          </td>
+          <td>Idk</td>
+          <td>https://robertsspaceindustries.com/star-citizen/</td>
+          <td><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></td>
+          <td>
+            <a href="#" class="btn btn-primary" onclick="AddItems(6)"
+              >Save For Later</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>The Witcher 2</td>
+          <td>
+            <img
+              src="https://www.escapistmagazine.com/wp-content/uploads/2022/10/geralt-1.jpg?fit=2000%2C1333"
+              alt=""
+            />
+          </td>
+          <td>R 655.19</td>
+          <td>
+            https://store.steampowered.com/app/20920/The_Witcher_2_Assassins_of_Kings_Enhanced_Edition/
+          </td>
+          <td><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></td>
+          <td>
+            <a href="#" class="btn btn-primary" onclick="AddItems(7)"
+              >Save For Later</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>Destiny 2</td>
+          <td>
+            <img
+              src="https://www.gematsu.com/wp-content/uploads/2017/03/Destiny-2-Tweet_03-27-17.jpg"
+              alt=""
+            />
+          </td>
+          <td>R 779.00</td>
+          <td>https://store.steampowered.com/app/1085660/Destiny_2/</td>
+          <td><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></td>
+          <td>
+            <a href="#" class="btn btn-primary" onclick="AddItems(8)"
+              >Save For Later</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">9</th>
+          <td>Red Dead Redemption 2</td>
+          <td>
+            <img src="https://wallpapercave.com/wp/wp3770517.png" alt="" />
+          </td>
+          <td>R 449.70</td>
+          <td>
+            https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/
+          </td>
+          <td><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></td>
+          <td>
+            <a href="#" class="btn btn-primary" onclick="AddItems(9)"
+              >Save For Later</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">10</th>
+          <td>Dying Light 2</td>
+          <td>
+            <img
+              src="https://avante.biz/wp-content/uploads/Dying-Light-2-(2019)/Dying-Light-2-(2019)1.jpg"
+              alt=""
+            />
+          </td>
+          <td>R 1 049.30</td>
+          <td>
+            https://store.steampowered.com/app/534380/Dying_Light_2_Stay_Human/
+          </td>
+          <td><i onclick="myFunction(this)" class="fa fa-thumbs-up"></i></td>
+          <td>
+            <a href="#" class="btn btn-primary" onclick="AddItems(10)"
+              >Save For Later</a
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <button id="right">&raquo;</button>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

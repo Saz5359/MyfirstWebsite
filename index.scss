@@ -1,0 +1,67 @@
+@mixin text {
+  text-align: center;
+}
+
+$textfont: cursive;
+
+.c-item {
+  height: 32rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.c-img {
+  filter: brightness(0.7);
+}
+
+.space {
+  height: 20vh;
+}
+
+.nav-box {
+  font-size: 50px;
+  border: 5px;
+}
+
+.genre {
+  margin-left: 300px;
+}
+
+.head2 {
+  @include text;
+}
+
+.p2 {
+  @include text;
+}
+
+form {
+  @include text;
+  font-size: 20px;
+}
+
+.he {
+  @include text;
+}
+
+.head1 {
+  font-family: $textfont;
+}
+
+li {
+  font-family: $textfont;
+}
+
+.bar {
+  font-size: 60px;
+}
+
+a {
+  color: rgb(209, 17, 164);
+}
+
+.radio {
+  @include text;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
