@@ -10,7 +10,7 @@ This is my first project as a developer which is about about something I am pass
 
 The project serves no function as its here to show off my skills as a beginner developer
 The project has 3 HTML files which are the main page , about page and the completed list page
-** I am know that one of the pictures in the carousel at the beginning of the index page is not loading I am aware of it and will fix it at a later date **
+** I know that one of the pictures in the carousel at the beginning of the index page is not loading I am aware of it and will fix it at a later date **
 
 ## Developer portfolio
 -link-
