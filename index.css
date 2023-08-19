@@ -1,7 +1,7 @@
 .c-item {
-    height: 32rem;
-    background-position: center;
-    background-size: cover; 
+  height: 32rem;
+  background-position: center;
+  background-size: cover;
 }
 
 .c-img {
@@ -18,7 +18,7 @@
 }
 
 .genre {
-   margin-left: 300px;
+  margin-left: 300px;
 }
 
 .head2 {
@@ -57,5 +57,5 @@ a {
 .radio {
   text-align: center;
   font-size: 50px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
