@@ -6,14 +6,11 @@ This is my first project as a developer which is about about something I am pass
 + CSS/SCSS
 + JSON
 + JQUERY
-+ Basic JavaScript fundamentals
++ JavaScript 
 
 The project serves no function as it is here to show off my skills as a beginner developer
 The project has 3 HTML files which are the main page, the About page, and the completed list page
 ** I know that one of the pictures in the carousel at the beginning of the index page is not loading I am aware of it and will fix it at a later date **
-
-## Developer Portfolio
--link-
 
 ## How to install project
 This is a simple website that requires you to have a text editor and a browser
