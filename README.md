@@ -12,6 +12,8 @@ The project serves no function as it is here to show off my skills as a beginner
 The project has 3 HTML files which are the main page, the About page, and the completed list page
 ** I know that one of the pictures in the carousel at the beginning of the index page is not loading I am aware of it and will fix it at a later date **
 
+see webpage - https://saz5359.github.io/Project-1-HTML-CSS-JavaScript/
+
 ## How to install project
 This is a simple website that requires you to have a text editor and a browser
 + Copy all files to a folder
