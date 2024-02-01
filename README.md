@@ -1,25 +1,46 @@
-# My first website project named Weebz
 
-## This is the first project of my bootcamp which instructs us to create a basic website
-This is my first project as a developer which is about about something I am passionate about. The project is about a gaming website that was created using the very basics of:
+# Gamer Grove
+
+Gamer Grove is a gaming website where gamers can come together to view the latest games, top games of the year, and game suggestions for all gamers alike.
+
+
+## Motivation
+
+I am very passionate about gaming as I am a gamer so I wanted to design and create a website for people like me who share my passion for games to come together and to a site where they can read and share games in a safe fun environment.
+
+
+
+## Demo
+
+see app here -> https://saz5359.github.io/Project-1-HTML-CSS-JavaScript/
+## Installation
+
+To install this app do the following in the command prompt of a directory:
+
+```bash
+  git clone https://github.com/Saz5359/Project-1-HTML-CSS-JavaScript.git
+
+  cd Project-1-HTML-CSS-JavaScript
+
+  open the index in a browser to view the web page
+```
+This app can be viewed in any browser
+## Usage
+
+- Gamer Grove contains information on everything gaming.
+- Allows users to save games for later
+
+Gamer Grove was created using the following:
 + HTML
 + CSS/SCSS
++ JavaScript 
 + JSON
 + JQUERY
-+ JavaScript 
 
-The project serves no function as it is here to show off my skills as a beginner developer
-The project has 3 HTML files which are the main page, the About page, and the completed list page
-** I know that one of the pictures in the carousel at the beginning of the index page is not loading I am aware of it and will fix it at a later date **
 
-see webpage - https://saz5359.github.io/Project-1-HTML-CSS-JavaScript/
+## Contributing
 
-## How to install project
-This is a simple website that requires you to have a text editor and a browser
-+ Copy all files to a folder
-+ Make sure all folders are copied
-+ click html files to view them in the browser
-+ File can be modified in a text editor
+Contributions are always welcome!
 
-## Credits
-Credits go to Johann Jansen van Vuuren from HyperionDev for his help with this project
+
+
